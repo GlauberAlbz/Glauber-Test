@@ -8,6 +8,8 @@
 
 let num = 10
 
-let numDobro = num * 2  
+function calculoDobro(numero){
+    return numero * 2
+}
 
-console.log(numDobro)
+console.log(`O dobro de ${num} é ${calculoDobro(num)}`)
