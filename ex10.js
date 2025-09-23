@@ -8,7 +8,11 @@
 
 let nota1 = 5
 let nota2 = 9
-let nota3 = 7
-let media = (nota1 + nota2 + nota3)/3
+let nota3 = 8
 
-console.log(media)
+function medias(n1, n2, n3){
+    let media = (n1 + n2 + n3)/3
+    return media
+}
+
+console.log(`A média das notas é ${medias(nota1, nota2, nota3).toFixed(2)}`)
